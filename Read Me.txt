@@ -1,0 +1,25 @@
+Hello All !!
+I was in the Local repository earlier. 
+Now, I have boarded the remote GitHub repository - "local-to-remote-repo".
+
+Please follow below steps :
+
+1.	Initialize the local repo with Git :
+	-	git init
+
+2.	Added & Commited the changes to local repository
+	-	git add .
+	-	git commit -m "initial commit"
+
+3.	Created and updated local repo with this remote repo
+	-	git remote add origin https://github.com/Sawant-Harshad/local-to-remote-repo.git
+	-	Verify the remote repo : "git remote -v"
+
+4.	Check for the branch name to be 'main'
+	-	git branch
+	-	If not, rename the branch to 'main' : "git branch -M main"
+
+5.	To avoid repetitive use of the origin main while pushing, set upstream.
+	-	git push -u origin main
+
+
